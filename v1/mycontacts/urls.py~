@@ -4,6 +4,6 @@ from django.conf.urls import include,url
 from mycontacts import views
 urlpatterns=[
         url(r'name.*',views.name,name='name'),
-        url(r'whoami.*',views.whoami,name='whoami'),
+        url(r'whoami.*/',views.whoami,name='whoami'),
         url(r'number.*',views.number,name='number'),
 ]

@@ -23,5 +23,5 @@ urlpatterns = [
     path('myhome/',views.home,name='home'),
     path('aboutus/',views.aboutus,name='aboutus'),
     path('',views.aboutus,name='aboutus'),
-  #  url('mycontacts.*/',include('mycontacts.urls')),
+    url('mycontacts.*/',include('mycontacts.urls')),
 ]
